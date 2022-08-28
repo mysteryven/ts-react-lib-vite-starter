@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import sum from '../../src/index'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  console.log(sum(1, 2), 'sum(1, 2)')
 
   return (
     <div className="App">
